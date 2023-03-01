@@ -1,0 +1,136 @@
+body{
+    background-color: #a2a8d3;
+}
+
+header{
+    display: block;    
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+    background-color:#592ff0;  
+    padding: 14px 25px;  
+}
+a:hover{
+    color: black;
+    background-color: rgb(177, 30, 30);
+}
+nav ul{    
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;       
+}
+
+.botonBarra{
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: auto;
+}
+
+.subCont{
+    text-align: center;
+    font-family: 'Tilt Warp', cursive; 
+    font-size: 45px;
+    text-shadow: 2px 2px gray;    
+}
+
+.foto-perfil{    
+    border-radius: 20% 30% 0% 50%;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px groove gray;  
+}
+
+.Acer{    
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-top: 70px;    
+    background-color: aquamarine;
+    border: 15px;
+    padding: 15px;
+    border-radius: 3% 3% 3% 3%;
+}
+
+.Conon{
+    display: grid;
+    margin: 70px 300px 70px 300px;    
+    background-image: linear-gradient(rgb(122, 245, 122),rgb(72, 248, 72),rgb(0, 255, 0));
+    border: 15px;
+    padding: 15px;    
+}
+
+.textoDesc{
+    margin-right: 120px;  
+    margin-left: 120px; 
+    font-family: 'Tilt Warp', cursive; 
+    font-size: 27px;
+    text-align: justify;
+}
+
+.Exp{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+
+}
+
+.logo{
+    border-radius: 15px;
+    border: 5px solid #5a68d1a8;
+    width: 300px;
+    padding: 5px;
+    text-align:center;
+    
+}
+.textlogo{
+    font-family: 'Tilt Warp', cursive; 
+    font-size: 18px;    
+}
+
+.formCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 250px;
+    background-color: #161d4b;
+    font-size: 22px;   
+    padding: 30px;
+    color: white;
+    
+}
+
+.itemForm{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bajo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    background-color: #1780b1;
+}
+
+.temaBoton{
+    display: flex;
+    padding-top: 60px;
+    justify-content: center;
+}

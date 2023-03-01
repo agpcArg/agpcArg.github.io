@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cv</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+</head>
+
+
+<body>    
+    <header>
+        <nav>
+            <ul>
+                <li class="botonBarra"><a href="#Acerca"> Acerca de mi</a></li>
+                <li class="botonBarra"><a href="#Conocimientos"> Conocimientos</a></li>
+                <li class="botonBarra"><a href="#Experiencia">Experiencia</a></li>
+                <li class="botonBarra"><a href="#Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <a name="Acerca"> </a><h2 class="subCont" >Quien soy y de donde vengo</h2></a>
+    <div class="Acer">        
+            <img src="fotocv.jpg" alt="Foto CV" class="foto-perfil">
+            <p class="textoDesc">Mi nombre es Martin Garcia y tengo 27 años. Actualmente vivo en la ciudad de 
+                <strong>Malargüe</strong> que esta localizada en la provincia de Mendoza, Argentina.
+                Originariamente soy de la Republica del Uruguay pero encontre mi vocacion en el pais
+                en el cual actualmente estoy residiendo.
+            </p>
+    </div>
+
+    <a name="Conocimientos"> <h2 class="subCont">Conocimientos Previos</h2></a>
+    <div class="Conon">
+        <div class="textoDesc">
+            <u>
+                <li>Desarrollo en C#</li>
+                <li>Analisis de datos con Python</li>
+                <li>Desarrollo en Frontend y Backend</li>
+                <li>Mantenimiento de BD</li>
+            </u>
+        </div>
+    </div>
+
+    <a name="Experiencia"> <h2 class="subCont">Experiencia</h2></a>
+    
+    <div class="Exp">
+        <div class="logo">
+            <img src="giga.jpg" alt="Logo Gigared" width="300" height="74">
+            <p class="textlogo">Manejo de base de datos de los clientes del 
+                servicio de cable por fibra optica </p>
+        </div>
+        <div class="logo">
+            <img src="fryla.jpg" alt="Logo Gigared" width="300" height="74">
+            <p class="textlogo">Junior developer en Backend para el servicio de paginas web</p>
+        </div>
+        <div class="logo">
+            <img src="drop.jpg" alt="Logo Gigared" width="300" height="74">
+            <p class="textlogo">Analisis de datos de usuarios para muestreo de publicidad segun region</p>
+        </div>
+    </div>
+
+    <a name="Contacto"> <h2 class="subCont">Contacto</h2></a>
+            <div class="formCenter">
+                <form class="formulario">
+                    <div class="itemForm">
+                        <label for="idNombre">Nombre</label>
+                        <input type="text" placeholder="Martin" id="idNombre"required>
+                    </div>
+                    <div class="itemForm">
+                        <label for="idApellido">Apellido</label>
+                        <input type="text" placeholder="Garcia" id="idApellido" required>
+                    </div>
+                    <div class="itemForm">
+                        <label for="idCorre">Correo electronico</label>
+                        <input type="text" placeholder="martingarcia@ejemplo.com.ar" id="idCorre" required>            
+                    </div>
+                    <div class="itemForm">
+                        <label for="idConsulta">Tu consulta</label>
+                        <input type="text" placeholder="Tu consulta debe ser menor a 140 caracteres" id="idConsulta" maxlength="140" required>
+                    </div>
+                    <div class="itemForm">
+                        <button type="submit">Enviar consulta</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="temaBoton">
+                <button type="button" id="tema">Tema Oscuro</button>
+            </div>
+    <script src="content.js"></script>
+    
+</body>
+<footer class="bajo">
+    <div>
+        <p>Copyright 2022©</p>
+    </div>
+    
+    
+    <div>
+
+    </div>
+</footer>
+</html>
